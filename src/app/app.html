@@ -1,4 +1,7 @@
-<main class="">
+<main >
+<app-developer-registration
+  (developerRegistered)="updateDeveloperInfo($event)"
+  (registrationDeferred)="resetRegisteredDeveloperInfo()"/>
 
 
 </main>
